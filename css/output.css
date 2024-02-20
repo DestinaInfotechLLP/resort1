@@ -4681,3 +4681,37 @@ h1,h2,h3,h4,h5,h6 {
     margin-right: 10px;
     font-size: 12px
 }
+
+.call_whatsapp {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding: 20px 10px;
+}
+
+.whatsapp {
+	background: #25d366;
+}
+.call {
+	background: #0059aa;
+}
+
+.call_whatsapp i {
+	color: white;
+	font-size: 30px;
+}
+
+.wc {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 999;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2), 0px 10px 14px rgba(0, 0, 0, 0.1),
+		inset 0px 1px 0px rgba(255, 255, 255, 0.25),
+		inset 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
